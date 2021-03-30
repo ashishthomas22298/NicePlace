@@ -1,10 +1,15 @@
 import React from "react";
+import "./App.css";
 import Header from "./Header.jsx";
 
 function App(){
     return <div>
         <Header />
-        <h1>Hello</h1>
+        <section id="Home"></section>
+        <section id="About"></section>
+        <section id="Services"></section>
+        <section id="Blog"></section>
+        <section id="Search"></section>
     </div>;
 }
 
