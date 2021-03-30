@@ -1,0 +1,22 @@
+#Jumbotron{
+    height: calc(100% - 250px);
+    width: calc(100% - 100px);
+    background: url("./images/jumbo.jpg") no-repeat;
+    background-size: cover;
+    border-radius: 3rem;
+    position: relative;
+}
+
+#Jumbotron div{
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+}
+
+#Jumbotron div h1{
+    color:white;
+    font-size: 5rem;
+}
+/* #Jumbotron h1:first{
+
+} */
