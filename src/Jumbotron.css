@@ -7,16 +7,34 @@
     position: relative;
 }
 
-#Jumbotron div{
+.Title{
     position: absolute;
     top: 7rem;
     left: 8rem;
 }
 
-#Jumbotron div h1{
+.Title h1{
     color:white;
     font-size: 5rem;
 }
-/* #Jumbotron h1:first{
 
-} */
+.options{
+    background-color: white;
+    padding: 1rem 1rem;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.options div{
+    display: inline-block;
+    padding: 0 5rem;
+}
+
+.options div p{
+    font-size: .9rem;
+    padding-top: .7rem;
+}
+
+.location, .activity{
+    border-right: solid 0.1rem #00000017;
+}
