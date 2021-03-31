@@ -5,6 +5,8 @@
     background-size: cover;
     border-radius: 3rem;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .Title{
@@ -20,9 +22,13 @@
 
 .options{
     background-color: white;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
     position: absolute;
-    bottom: 1rem;
+    bottom: -3rem;
+    box-shadow: 0 -7px 30px rgb(57 63 72 / 30%);
+    display: flex;
+    align-items: center;
 }
 
 .options div{
@@ -37,4 +43,8 @@
 
 .location, .activity{
     border-right: solid 0.1rem #00000017;
+}
+
+.search{
+    vertical-align: middle;
 }
