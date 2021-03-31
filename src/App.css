@@ -3,7 +3,9 @@ section{
 }
 
 #Home{
+    height: 70vh;
+    padding: 3rem 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }

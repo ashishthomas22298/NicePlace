@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Menu.css"
 function Menu(props){
 
     const listItems = props.list.map((item) =>
@@ -7,7 +7,7 @@ function Menu(props){
     );
     
     return <ul>
-        <ul>{listItems}</ul>
+        <ul className="Menu">{listItems}</ul>
     </ul>;
 }
 

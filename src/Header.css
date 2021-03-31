@@ -1,4 +1,15 @@
 #Header{
     width: 100%;
     position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    z-index: 1;
+}
+
+#Header a{
+    color:#130f26;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
